@@ -1,14 +1,13 @@
 # trelloyes
 
 Card.js:
-
 The Card component should render markup matching the design.html: a div with a class of 'Card' containing an h3 for the card's title and a p element for the card's content.
 The Card component accepts 2 props: title and content.
 title is a string of the card's title.
 content is a string of the card's content.
 These props will be passed in for each Card from the List component.
-List.js:
 
+List.js:
 The List component should render markup matching the design.html: a section with a class of 'List', containing a header and div with class 'List-cards'.
 The List component accepts 2 props: header and cards.
 header is a string of the header of the card to render.
@@ -18,8 +17,8 @@ The List should render a Card component for each of the cards in the cards array
 Each instance of the Card component should be passed 2 props (and a key). The 2 props are title and content.
 The title prop is a string for the Card's title.
 The content prop is a string of the Card's content.
-App.js:
 
+App.js:
 The App component should render markup matching the design.html: the main element, a header with the h1 and a div with class 'App-list'.
 The App component will accept 1 prop, store.
 The store prop is an object with 2 keys: lists and allCards.
