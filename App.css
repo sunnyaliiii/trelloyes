@@ -1,170 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="./style.css">
-  <title>React App</title>
-</head>
+.App {
+  min-height: calc(100vh - 16px);
+  min-width: calc(100vw - 16px);
+  background: #0079bf;
+  padding: 8px;
+  display: inline-flex;
+  flex-direction: column;
+}
 
-<body>
-  <main class="App">
-    <header class="App-header">
-      <h1>Trelloyes!</h1>
-    </header>
-    <div class="App-list">
-      <section class="List">
-        <header class="List-header">
-          <h2>First list</h2>
-        </header>
-        <div class="List-cards">
-          <div class="Card">
-            <h3>First card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Second card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Fifth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Sixth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Seventh card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Tenth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Twelth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Thirteenth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-        </div>
-      </section>
-      <section class="List">
-        <header class="List-header">
-          <h2>Second list</h2>
-        </header>
-        <div class="List-cards">
-          <div class="Card">
-            <h3>Second card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Third card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Fourth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Sixth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Eighth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Ninth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Eleventh card</h3>
-            <p>lorem ipsum</p>
-          </div>
-        </div>
-      </section>
-      <section class="List">
-        <header class="List-header">
-          <h2>Third list</h2>
-        </header>
-        <div class="List-cards">
-          <div class="Card">
-            <h3>First card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Second card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Third card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Fourth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Fifth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Sixth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Seventh card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Eighth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Ninth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Tenth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Eleventh card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Twelth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Thirteenth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-        </div>
-      </section>
-      <section class="List">
-        <header class="List-header">
-          <h2>Fourth list</h2>
-        </header>
-        <div class="List-cards">
-          <div class="Card">
-            <h3>Twelth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-          <div class="Card">
-            <h3>Thirteenth card</h3>
-            <p>lorem ipsum</p>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-</body>
+.App-header h1 {
+  margin: 0;
+  color: #f6f6f6;
+  font-size: 20px;
+  padding: 0 14px 10px;
+}
 
-</html>
+.App-list {
+  display: flex;
+}
